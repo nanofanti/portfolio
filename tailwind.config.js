@@ -8,7 +8,8 @@ export default {
         burtons: "burtons",
       },
       backgroundImage: {
-        parallax: "url('../public/parallax1.jpg')",
+        parallax1: "url('../public/parallax1.jpg')",
+        parallax2: "url('../public/parallax2.jpg')",
       },
     },
   },

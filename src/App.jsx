@@ -47,12 +47,15 @@ function App() {
               </li>
             </ul>
           </nav>
-          <div className="relative flex flex-col item-center justify-center p-10 bg-fixed bg-parallax bg-cover">
-            <p className="text-[5rem] text-center py-5 text-teal-600 font-medium">
+          <div className="h-screen relative flex flex-col item-center justify-center p-10 bg-fixed bg-parallax1 bg-cover">
+            <p
+              className="text-[5rem] text-center py-5 text-teal-600 font-medium"
+              data-aos="flip-up"
+            >
               Marco Fanti
             </p>
 
-            <p className="text-2xl py-5 leading-8 text-gray-800 dark:text-white">
+            <p className="text-2xl py-5 leading-8 text-center text-gray-800 dark:text-white">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
               delectus nihil inventore laborum libero qui nam consequuntur illum
               ipsum fugit?
@@ -61,27 +64,47 @@ function App() {
               <AiFillMail
                 className=" transition duration-700 hover:scale-150
             dark:text-white"
+                data-aos="fade-right"
               />
               <a href="https://github.com/nanofanti" target="_blank">
-                <AiFillGithub className="transition duration-700 hover:scale-150 dark:text-white" />
+                <AiFillGithub
+                  className="transition duration-700 hover:scale-150 dark:text-white"
+                  data-aos="fade-down"
+                />
               </a>
               <a href="https://www.linkedin.com/in/marcofanti/" target="_blank">
-                <AiFillLinkedin className="transition duration-700 hover:scale-150 dark:text-white" />
+                <AiFillLinkedin
+                  className="transition duration-700 hover:scale-150 dark:text-white"
+                  data-aos="fade-left"
+                />
               </a>
             </div>
-            <div className="relative mx-auto rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:border-8 border-teal-600">
+          </div>
+          <div className="h-[35rem] mt-24">
+            <div
+              className="relative mx-auto rounded-full  mt-20 overflow-hidden md:h-96 md:w-96 dark:border-8 border-teal-600"
+              data-aos="fade-up"
+            >
               <img
                 src="Mypic.png
-              "
+                "
                 className=" object-cover h-80 transition-all duration-300 hover:scale-110 md:h-96 md:w-96 "
                 alt=""
               />
             </div>
+            <h2
+              className="text-white text-center mt-10 text-[3rem]"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero,
+              labore?
+            </h2>
           </div>
         </section>
-        <section data-aos="fade-up">
+        <section className="bg-fixed bg-parallax2 bg-cover">
           <div className="mt-12">
-            <h3 className="text-5xl py-1 text-center mt-8 dark:text-teal-500">
+            <h3 className="text-[5rem] text-center py-5 text-teal-600 font-medium">
               Skills
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
@@ -171,7 +194,7 @@ function App() {
         </section>
         <section data-aos="fade-up">
           <div>
-            <h3 className="text-5xl py-1 text-center dark:text-teal-500">
+            <h3 className="text-[5rem] text-center py-5 text-teal-600 font-medium">
               Works & ...Projects
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
