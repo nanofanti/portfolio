@@ -12,6 +12,6 @@ export default {
         parallax2: "url('../public/parallax2.jpg')",
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };
