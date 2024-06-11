@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        burtons: "burtons",
+        roboto: ["Roboto", "sans-serif"],
       },
       backgroundImage: {
         parallax1: "url('../public/parallax1.jpg')",
