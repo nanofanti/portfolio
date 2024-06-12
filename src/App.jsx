@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import { AiFillLinkedin, AiFillGithub, AiFillMail } from "react-icons/ai";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
+import { RiSmartphoneFill } from "react-icons/ri";
 import { TypeAnimation } from "react-type-animation";
+import { FaCheck } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
+import { IoMdPin } from "react-icons/io";
 import "./App.css";
 
 //aos
@@ -16,7 +20,7 @@ function App() {
 
   return (
     <div className={!darkMode ? "" : "dark"}>
-      <main className="bg-white pb-20 w-screen dark:bg-black">
+      <main className="bg-white w-screen dark:bg-black">
         <section>
           <div className="h-screen relative flex flex-col item-center justify-center bg-fixed bg-parallax1 bg-cover">
             <div
@@ -40,9 +44,9 @@ function App() {
                     />
                   </li>
                 )}
-                <li className=" ">
+                <li className="hover:-translate-y-2 transform transition">
                   <a
-                    className="text-[1.5rem] font-roboto bg-orange-400 hover:text-orange-400 hover:bg-white dark:bg-teal-500 text-white px-4 py-2 rounded-md ml-8 dark:hover:text-teal-500 dark:hover:bg-white "
+                    className="text-[1.5rem] font-roboto bg-orange-400  dark:bg-teal-500 text-white px-4 py-2 rounded-md ml-8 0  "
                     href="/MarcoFantiResume.pdf"
                     target="_blank"
                   >
@@ -94,7 +98,7 @@ function App() {
             <p
               data-aos="fade-up"
               data-aos-delay="1200"
-              className="text-[2rem] font-roboto py-10 leading-8 text-center text-white "
+              className="text-[2rem] font-roboto py-10 leading-8 text-center text-white"
             >
               Lorem ipsum dolor sit amet{" "}
               <span className="text-orange-400 font-roboto dark:text-teal-500">
@@ -114,24 +118,47 @@ function App() {
               laborum libero qui nam consequuntur illum ipsum fugit?
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 ">
-              <a href="mailto:fanti.marco8@gmail.com" target="_blank">
+              <a
+                href="mailto:fanti.marco8@gmail.com"
+                target="_blank"
+                className="hover:-translate-y-2 transform transition"
+              >
                 <AiFillMail
-                  className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 "
+                  className="text-white text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 "
                   data-aos="fade-right"
                   data-aos-delay="1800"
                 />
               </a>
-              <a href="https://github.com/nanofanti" target="_blank">
+              <a
+                href="https://github.com/nanofanti"
+                target="_blank"
+                className="hover:-translate-y-2 transform transition"
+              >
                 <AiFillGithub
                   className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 "
                   data-aos="fade-up"
                   data-aos-delay="1800"
                 />
               </a>
-              <a href="https://www.linkedin.com/in/marcofanti/" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/marcofanti/"
+                target="_blank"
+                className="hover:-translate-y-2 transform transition"
+              >
                 <AiFillLinkedin
                   className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 "
                   data-aos="fade-left"
+                  data-aos-delay="1800"
+                />
+              </a>
+              <a
+                href="https://www.instagram.com/nanofanti?igsh=MTcxNnN5Y24zd2l6Mg=="
+                target="_blank"
+                className="hover:-translate-y-2 transform transition"
+              >
+                <RiInstagramFill
+                  className="text-white text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 "
+                  data-aos="fade-right"
                   data-aos-delay="1800"
                 />
               </a>
@@ -139,16 +166,20 @@ function App() {
           </div>
           <div className="h-[40rem] mt-24">
             <div
-              className="relative mx-auto border-orange-400 rounded-full mt-20 overflow-hidden md:h-96 md:w-96 border-8 dark:border-teal-600"
+              className="  mx-auto border-orange-400 rounded-full mt-20 overflow-hidden md:h-96 md:w-96 border-8 dark:border-teal-600"
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <img
-                src="Mypic.png
-                "
-                className=" object-cover h-80 transition-all duration-300 hover:scale-110 md:h-96 md:w-96 "
-                alt=""
-              />
+              <div className="relative group">
+                <img
+                  src="/Mypic.png"
+                  alt=""
+                  className=" rounded-lg object-cover group-hover:blur-sm duration-300"
+                />
+                <div className="absolute roboto inset-0 z-10 flex flex-col justify-center items-center text-6xl font-semibold opacity-0 group-hover:opacity-100 duration-300 text-center text-orange-400 dark:text-teal-500 ">
+                  OPEN TO WORK <FaCheck />
+                </div>
+              </div>
             </div>
             <h2
               className="text-center font-roboto mt-10 text-[2rem] dark:text-white"
@@ -203,7 +234,7 @@ function App() {
               data-aos-delay="1200"
               className="text-center bg-gradient-to-b from-orange-400  dark:bg-gradient-to-b dark:from-teal-500 shadow-2xl p-12 rounded-xl my-10"
             >
-              <div className="w-full flex justify-center ">
+              <div className="w-full flex justify-center hover:-translate-y-2 transform transition ">
                 <img src="/design.png" width={100} height={100} alt="" />
               </div>
 
@@ -222,7 +253,7 @@ function App() {
               data-aos-delay="1000"
               className="text-center bg-gradient-to-b from-orange-400  dark:bg-gradient-to-b dark:from-teal-500 shadow-2xl p-12 rounded-xl my-10"
             >
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center hover:-translate-y-2 transform transition ">
                 <img src="/consulting.png" width={100} height={100} alt="" />
               </div>
 
@@ -240,7 +271,7 @@ function App() {
               data-aos-delay="1200"
               className="text-center bg-gradient-to-b from-orange-400  dark:bg-gradient-to-b dark:from-teal-500 shadow-2xl p-12 rounded-xl my-10"
             >
-              <div className="w-full flex justify-center">
+              <div className="w-full flex justify-center hover:-translate-y-2 transform transition ">
                 <img src="/code.png" width={100} height={100} alt="" />
               </div>
 
@@ -296,18 +327,21 @@ function App() {
               data-aos="flip-right"
               data-aos-delay="300"
             >
-              <h2 className=" text-[3.5rem] font-roboto text-orange-400 dark:text-teal-500 text-center mb-2">
+              <h2 className=" text-[3.5rem] font-roboto text-orange-400  dark:text-teal-500 text-center mb-2">
                 Petfect Match
               </h2>
               <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <img
-                src="/petfectmatch.png"
-                alt=""
-                className="rounded-lg object-cover"
-              />
+              <a href="https://petfectmatch.netlify.app/" target="_blank">
+                <img
+                  src="/petfectmatch.png"
+                  alt=""
+                  className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                />
+              </a>
             </div>
+
             <div
               className="basis-1/3 flex-1"
               data-aos="flip-left"
@@ -319,11 +353,13 @@ function App() {
               <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <img
-                src="/pokefight.png"
-                alt=""
-                className="rounded-lg object-cover"
-              />
+              <a href="https://mamspokefight.netlify.app/" target="_blank">
+                <img
+                  src="/pokefight.png"
+                  alt=""
+                  className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                />
+              </a>
             </div>
             <div
               className="basis-1/3 flex-1 mt-[8rem] p-5"
@@ -336,14 +372,16 @@ function App() {
               <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <img
-                src="/signup.png"
-                alt=""
-                className="rounded-lg object-cover"
-              />
+              <a href="https://github.com/nanofanti/react-form" target="blank">
+                <img
+                  src="/signup.png"
+                  alt=""
+                  className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                />
+              </a>
             </div>
             <div
-              className="basis-1/3 flex-1 mt-[8rem] p-5"
+              className="basis-1/3 flex-1 mt-[8rem] p-5 "
               data-aos="flip-left"
               data-aos-delay="300"
             >
@@ -353,11 +391,37 @@ function App() {
               <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <img
-                src="/SignUp.png"
-                alt=""
-                className="rounded-lg object-cover"
-              />
+              <div className="relative group">
+                <img
+                  src="/auplantlogo.png"
+                  alt=""
+                  className="rounded-lg object-cover group-hover:blur-sm duration-300 group-hover:-translate-y-2"
+                />
+                <div className="absolute inset-0 z-10 flex justify-center items-center text-6xl font-semibold opacity-0 group-hover:opacity-100 duration-300 rounded text-orange-400 hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:text-teal-500 dark:border-teal-500">
+                  Coming soon...
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="h-[10rem] relative flex justify-evenly items-center bg-fixed bg-parallax2 bg-cover">
+            <div className="flex flex-col items-center">
+              <p className="text-[1.5rem] flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white">
+                <IoMdPin className="text-[1.5rem] hover:text-orange-400 dark:hover:text-teal-500 hover:-translate-y-2 transform transition" />
+                Heidelberg, Germany
+              </p>
+              <p className="text-[1.5rem] flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white mt-2 ">
+                <RiSmartphoneFill className="text-[1.5rem] hover:text-orange-400 dark:hover:text-teal-500 hover:-translate-y-2 transform transition" />
+                +49 0176 620 191 44
+              </p>
+            </div>
+            <div className="hover:-translate-y-2 transform transition">
+              <a
+                className="text-[1.5rem] font-roboto bg-orange-400  dark:bg-teal-500 text-white px-4 py-2 rounded-md ml-8 0  "
+                href="mailto:fanti.marco8@gmail.com"
+                target="_blank"
+              >
+                Contact me
+              </a>
             </div>
           </div>
         </section>
