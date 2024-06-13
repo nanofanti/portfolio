@@ -4,6 +4,12 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      colors: {
+        redTitle: "#B81F31",
+      },
+      screens: {
+        lg: "1017px",
+      },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },

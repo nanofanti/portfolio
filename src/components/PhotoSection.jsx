@@ -1,11 +1,12 @@
 import { FaCheck } from "react-icons/fa";
+import Skills from "./Skills";
 
 function PhotoSection() {
   return (
     <div>
-      <div className="h-[40rem] mt-24">
+      <div className="h-[100rem] sm:h-[50rem] flex flex-col items-center justify-center my-24">
         <div
-          className="  mx-auto border-orange-400 rounded-full mt-20 overflow-hidden md:h-96 md:w-96 border-8 dark:border-teal-600"
+          className="  mx-auto border-orange-400 rounded-full my-20 overflow-hidden h-96 w-96 border-8 dark:border-teal-600"
           data-aos="fade-up"
           data-aos-delay="300"
         >
@@ -21,7 +22,7 @@ function PhotoSection() {
           </div>
         </div>
         <h2
-          className="text-center font-roboto mt-10 text-[2rem] dark:text-white"
+          className="text-center font-roboto mt-10 text-[2rem] p-5 dark:text-white"
           data-aos="fade-up"
           data-aos-delay="600"
         >
@@ -30,6 +31,7 @@ function PhotoSection() {
           adipisicing elit. Libero, labore?
         </h2>
       </div>
+      <Skills />
     </div>
   );
 }

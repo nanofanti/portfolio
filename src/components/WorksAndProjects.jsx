@@ -1,29 +1,30 @@
+import Footer from "./Footer";
+
 function WorksAndProjects() {
   return (
-    <div>
-      <div className="mb-[12.5rem] mt-[10rem]" data-aos="fade-up">
-        <h3 className="text-[5rem] font-roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
+    <div className="dark:bg-black pt-[20rem] h-[125rem] lg:h-[150rem]">
+      <div className=" pb-[10rem]" data-aos="fade-up">
+        <h3 className="text-[5rem] roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
           Works & ...Projects
         </h3>
         <p
           data-aos="fade-up"
           data-aos-delay="600"
-          className="text-[2rem] font-roboto text-center py-8 leading-8 text-gray-800 dark:text-gray-200"
+          className="text-[2rem] roboto text-center p-5 leading-8 dark:text-white"
         >
           Since the beginning of my journey as a freelance designer and
-          developer, <br />I have done remote work for
+          developer, I have done remote work for
           <span className="text-orange-400 dark:text-teal-500"> agencies </span>
         </p>
         <p
           data-aos="fade-up"
           data-aos-delay="600"
-          className="text-[2rem] font-roboto text-center py-2 leading-8 text-gray-800 dark:text-gray-200"
+          className="text-[2rem] roboto text-center p-5 leading-8 dark:text-white"
         >
           consulted for{" "}
           <span className="text-orange-400 dark:text-teal-500">startups </span>
-          and collaborated with <br />
-          talanted people to create digital products for both business and
-          consumer use.
+          and collaborated with talanted people to create digital products for
+          both business and consumer use.
         </p>
       </div>
       <div className="flex gap-10 p-10 m-10 flex-wrap">
@@ -32,10 +33,10 @@ function WorksAndProjects() {
           data-aos="flip-right"
           data-aos-delay="300"
         >
-          <h2 className=" text-[3.5rem] font-roboto text-orange-400  dark:text-teal-500 text-center mb-2">
+          <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
             Petfect Match
           </h2>
-          <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
+          <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <a href="https://petfectmatch.netlify.app/" target="_blank">
@@ -52,10 +53,10 @@ function WorksAndProjects() {
           data-aos="flip-left"
           data-aos-delay="300"
         >
-          <h2 className="text-[3.5rem] font-roboto text-orange-400 dark:text-teal-500 text-center mb-2">
+          <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
             Pokemon Fight
           </h2>
-          <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
+          <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <a href="https://mamspokefight.netlify.app/" target="_blank">
@@ -71,10 +72,10 @@ function WorksAndProjects() {
           data-aos="flip-right"
           data-aos-delay="300"
         >
-          <h2 className="text-[3.5rem] font-roboto text-orange-400 dark:text-teal-500 text-center mt-8">
+          <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
             Sign Up
           </h2>
-          <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
+          <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <a href="https://github.com/nanofanti/react-form" target="blank">
@@ -90,10 +91,10 @@ function WorksAndProjects() {
           data-aos="flip-left"
           data-aos-delay="300"
         >
-          <h2 className="text-[3.5rem] font-roboto text-orange-400 dark:text-teal-500 text-center mt-8">
+          <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
             ...Au Plant
           </h2>
-          <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
+          <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
           <div className="relative group">
@@ -108,6 +109,7 @@ function WorksAndProjects() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

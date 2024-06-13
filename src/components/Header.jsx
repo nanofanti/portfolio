@@ -4,18 +4,19 @@ import { TypeAnimation } from "react-type-animation";
 import { RiInstagramFill } from "react-icons/ri";
 import { useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import PhotoSection from "./PhotoSection";
 
 function Header() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
   return (
-    <div>
-      <div className="h-screen relative flex flex-col item-center justify-center bg-fixed bg-parallax1 bg-cover">
+    <div className="absolute bg-white dark:bg-black">
+      <div className="h-[100rem] sm:h-[80rem] relative flex flex-col item-center justify-center bg-fixed bg-parallax1 bg-cover">
         <div
           className="pb-16 bg-transparent z-40"
           data-aos="fade-left"
           data-aos-delay="200"
         >
-          <ul className="flex w-screen justify-end pr-[6rem] pt-4 gap-4">
+          <ul className="flex justify-end px-10">
             {!darkMode ? (
               <li>
                 <BsFillMoonStarsFill
@@ -147,6 +148,7 @@ function Header() {
           </a>
         </div>
       </div>
+      <PhotoSection />
     </div>
   );
 }
