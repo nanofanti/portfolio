@@ -7,6 +7,7 @@ export default {
       colors: {
         redTitle: "#B81F31",
       },
+
       screens: {
         lg: "1017px",
       },

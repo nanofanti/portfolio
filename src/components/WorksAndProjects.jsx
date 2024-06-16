@@ -33,19 +33,21 @@ function WorksAndProjects() {
           data-aos="flip-right"
           data-aos-delay="300"
         >
-          <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
-            Petfect Match
-          </h2>
+          <a href="https://petfectmatch.netlify.app/" target="blank">
+            <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
+              Petfect Match
+            </h2>
+          </a>
           <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <a href="https://petfectmatch.netlify.app/" target="_blank">
-            <img
-              src="/petfectmatch.png"
-              alt=""
-              className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
-            />
-          </a>
+
+          <iframe
+            width={850}
+            height={500}
+            src="https://petfectmatch.netlify.app/"
+            className="rounded-lg bg-white object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+          ></iframe>
         </div>
 
         <div
@@ -53,19 +55,22 @@ function WorksAndProjects() {
           data-aos="flip-left"
           data-aos-delay="300"
         >
-          <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
-            Pokemon Fight
-          </h2>
+          <a href="https://pokemonfightwbs.netlify.app/" target="blank">
+            {" "}
+            <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
+              Pokemon Fight
+            </h2>
+          </a>
+
           <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
           </p>
-          <a href="https://mamspokefight.netlify.app/" target="_blank">
-            <img
-              src="/pokefight.png"
-              alt=""
-              className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
-            />
-          </a>
+          <iframe
+            width={850}
+            height={500}
+            src="https://pokemonfightwbs.netlify.app/"
+            className="rounded-lg bg-white object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+          ></iframe>
         </div>
         <div
           className="basis-1/3 flex-1 mt-[8rem] p-5"

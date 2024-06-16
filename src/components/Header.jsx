@@ -10,7 +10,7 @@ function Header() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
   return (
     <div className="absolute bg-white dark:bg-black">
-      <div className="h-[100rem] sm:h-[80rem] relative flex flex-col item-center justify-center bg-fixed bg-parallax1 bg-cover">
+      <div className="h-[80rem] sm:h-[80rem] relative flex flex-col item-center justify-center bg-fixed bg-parallax1 bg-cover">
         <div
           className="pb-16 bg-transparent z-40"
           data-aos="fade-left"
