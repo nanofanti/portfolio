@@ -37,16 +37,31 @@
   }
   /* New custom link styles */
   .custom-link {
-    @apply relative text-[#1fb8a6] no-underline; /* Basic styles */
+    @apply relative text-[#fb923c] no-underline; /* Basic styles */
   }
 
   .custom-link::before {
+    content: "";
+    @apply absolute w-full h-1 bg-[#fb923c] rounded bottom-3 left-0 scale-x-0 origin-right;
+    @apply transition-transform duration-300 ease-in-out; /* Animation setup */
+  }
+
+  .custom-link:hover::before {
+    @apply origin-left scale-x-100; /* Transform on hover */
+  }
+
+  /* New custom link styles with dark mode on */
+  .custom-link-dark {
+    @apply relative text-[#1fb8a6] no-underline; /* Basic styles */
+  }
+
+  .custom-link-dark::before {
     content: "";
     @apply absolute w-full h-1 bg-[#1fb8a6] rounded bottom-3 left-0 scale-x-0 origin-right;
     @apply transition-transform duration-300 ease-in-out; /* Animation setup */
   }
 
-  .custom-link:hover::before {
+  .custom-link-dark:hover::before {
     @apply origin-left scale-x-100; /* Transform on hover */
   }
 }

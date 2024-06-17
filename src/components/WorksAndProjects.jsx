@@ -65,7 +65,7 @@ function WorksAndProjects() {
             <a
               href="https://petfectmatch.netlify.app/"
               target="blank"
-              className="custom-link"
+              className="custom-link dark:custom-link-dark"
             >
               <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-4">
                 Petfect Match
@@ -91,7 +91,7 @@ function WorksAndProjects() {
             <a
               href="https://pokemonfightwbs.netlify.app/"
               target="blank"
-              className="custom-link"
+              className="custom-link dark:custom-link-dark"
             >
               {" "}
               <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-4">
@@ -122,7 +122,7 @@ function WorksAndProjects() {
             <a
               href="https://github.com/nanofanti/react-form"
               target="blank"
-              className="custom-link"
+              className="custom-link dark:custom-link-dark"
             >
               <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
                 Sign up Form
@@ -147,7 +147,7 @@ function WorksAndProjects() {
             <a
               href="https://pokemonfightwbs.netlify.app/"
               target="_blank"
-              className="custom-link"
+              className="custom-link dark:custom-link-dark"
             >
               <h2 className="text-[3.25rem] font-roboto text-orange-400 dark:text-teal-500 text-center mb-2">
                 ...Au Plant
