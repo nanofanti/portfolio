@@ -11,11 +11,7 @@ function Header() {
   return (
     <div className="absolute bg-white dark:bg-black w-screen">
       <div className="h-[80rem] relative flex flex-col pt-[6rem] bg-fixed bg-parallax1 bg-cover">
-        <div
-          className="pb-16 bg-transparent z-40"
-          data-aos="fade-left"
-          data-aos-delay="200"
-        >
+        <div className="pb-16 bg-transparent z-40" data-aos="fade-left">
           <ul className="flex justify-between sm:justify-end  px-10">
             {!darkMode ? (
               <li>
@@ -45,7 +41,6 @@ function Header() {
         </div>
         <div className="flex flex-col items-center pb-10">
           <div
-            data-aos-delay="200"
             data-aos="fade-up"
             className="font-roboto text-[1rem] sm:text-[2rem]"
           >
@@ -77,14 +72,14 @@ function Header() {
         <p
           className="text-orange-40 text-[4.5rem] sm:text-[6rem] text-center py-5 mt-14 font-medium text-orange-400 dark:text-teal-500 "
           data-aos="fade-up"
-          data-aos-delay="1000"
+          data-aos-delay="300"
         >
           Marco Fanti
         </p>
 
         <p
           data-aos="fade-up"
-          data-aos-delay="1200"
+          data-aos-delay="300"
           className="text-[1.25rem] sm:text-[1.5rem] font-roboto py-10 leading-8 text-center text-white"
         >
           Highly motivated
@@ -98,7 +93,7 @@ function Header() {
         </p>
         <p
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="600"
           className="text-[1.25rem] sm:text-[1.5rem] font-roboto pb-14 leading-8 text-center text-white"
         >
           <p>
@@ -115,7 +110,7 @@ function Header() {
         <div
           className=" flex justify-center gap-10 py-3"
           data-aos="fade-up"
-          data-aos-delay="600"
+          data-aos-delay="900"
         >
           <div className="flex flex-col justify-center items-center gap-8 sm:flex-row">
             <a

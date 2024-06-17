@@ -8,12 +8,12 @@
   }
 
   .link-effect::before {
-    @apply absolute left-0 bottom-0 w-full bg-[#1fb8a6] origin-[100%_50%] scale-x-0 text-2xl;
+    @apply absolute left-0 bottom-0 w-full bg-[#fb923c] origin-[100%_50%] scale-x-0 text-2xl;
     @apply transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)]; /* Animation setup */
   }
 
   .link-effect::after {
-    @apply absolute left-0 top-0 w-full h-full origin-[100%_50%] translate-x-[200%] text-[#1fb8a6] text-2xl;
+    @apply absolute left-0 top-0 w-full h-full origin-[100%_50%] translate-x-[200%] text-[#fb923c] text-2xl;
     content: attr(data-replace); /* Use attribute content */
     @apply transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)];
   }
@@ -31,6 +31,40 @@
   }
 
   .link-effect:hover span {
+    @apply -translate-x-full; /* Change to -translate-x-full for complete hiding */
+    /* Add this line */
+    visibility: hidden;
+  }
+
+  /*link-effect dark mode*/
+  .link-effect-dark {
+    @apply relative inline-block overflow-hidden; /* Basic styles */
+  }
+
+  .link-effect-dark::before {
+    @apply absolute left-0 bottom-0 w-full bg-[#1fb8a6] origin-[100%_50%] scale-x-0 text-2xl;
+    @apply transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)]; /* Animation setup */
+  }
+
+  .link-effect-dark::after {
+    @apply absolute left-0 top-0 w-full h-full origin-[100%_50%] translate-x-[200%] text-[#1fb8a6] text-2xl;
+    content: attr(data-replace); /* Use attribute content */
+    @apply transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)];
+  }
+
+  .link-effect-dark:hover::before {
+    @apply origin-[0%_50%] scale-x-100; /* Transform on hover */
+  }
+
+  .link-effect-dark:hover::after {
+    @apply translate-x-0;
+  }
+
+  .link-effect-dark span {
+    @apply inline-block transition-transform duration-300 ease-[cubic-bezier(0.76,0,0.24,1)];
+  }
+
+  .link-effect-dark:hover span {
     @apply -translate-x-full; /* Change to -translate-x-full for complete hiding */
     /* Add this line */
     visibility: hidden;

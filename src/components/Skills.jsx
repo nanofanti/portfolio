@@ -8,21 +8,21 @@ function Skills() {
           <h3
             className="text-[4.5rem] sm:text-[6rem] font-roboto text-orange-400 text-center py-5 dark:text-teal-500 font-medium"
             data-aos="fade-up"
-            data-aos-delay="500"
+            data-aos-delay="300"
           >
             Skills
           </h3>
           <p
             className="text-[1.25rem] sm:text-[1.5rem] font-roboto text-white text-center p-5 leading-8"
             data-aos="fade-up"
-            data-aos-delay="800"
+            data-aos-delay="500"
           >
             Recently graduated from{" "}
             <p className="mt-2 text-[1.25rem] sm:text-[1.5rem]">
               <a
                 href="/WBScertificate.pdf"
                 target="blank"
-                className="link-effect"
+                className="link-effect dark:link-effect-dark"
                 data-replace="The Certificate!"
               >
                 <span className="text-orange-400 text-[1.25rem] sm:text-[1.5rem] dark:text-teal-500">
