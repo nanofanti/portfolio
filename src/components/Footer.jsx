@@ -5,12 +5,12 @@ function Footer() {
   return (
     <div className="my-[10rem]">
       <div className="h-[20rem] relative flex flex-col justify-evenly items-center bg-fixed bg-parallax2 bg-cover">
-        <div className="flex flex-col items-center">
-          <p className="text-[1.5rem] flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white">
+        <div className="flex flex-col items-center" data-aos="fade-up">
+          <p className=" text-[1.25rem] sm:text-[1.5rem]  flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white">
             <IoMdPin className="text-[3rem] hover:text-orange-400 dark:hover:text-teal-500 hover:-translate-y-2 transform transition" />
             Heidelberg, Germany
           </p>
-          <p className="text-[1.5rem] flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white mt-4 ">
+          <p className=" text-[1.25rem] sm:text-[1.5rem] flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white mt-4 ">
             <RiSmartphoneFill className="text-[3rem] hover:text-orange-400 dark:hover:text-teal-500 hover:-translate-y-2 transform transition" />
             +49 0176 620 191 44
           </p>

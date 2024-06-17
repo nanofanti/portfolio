@@ -8,7 +8,8 @@ function PhotoSection() {
         <div
           className=" mx-auto border-orange-400 rounded-full my-20 overflow-hidden h-[16rem] w-[16rem] border-8 dark:border-teal-600"
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
         >
           <div className="relative group">
             <img
@@ -22,7 +23,7 @@ function PhotoSection() {
           </div>
         </div>
         <h2
-          className="text-center font-roboto mt-10 text-[1.5rem] p-5 dark:text-white"
+          className="text-center font-roboto mt-10 text-[1.25rem] sm:text-[1.5rem] p-5 dark:text-white"
           data-aos="fade-up"
           data-aos-delay="600"
         >
@@ -30,7 +31,9 @@ function PhotoSection() {
           <span className="text-orange-400 hover:font-bold dark:text-teal-500">
             fire."
           </span>{" "}
-          <h2 className="text-[1.5rem] mt-1">(Charles Bukowski)</h2>
+          <h2 className="text-[1.25rem] sm:text-[1.5rem] font-extralight mt-1">
+            (Charles Bukowski)
+          </h2>
         </h2>
       </div>
       <Skills />

@@ -16,7 +16,7 @@ function Header() {
           data-aos="fade-left"
           data-aos-delay="200"
         >
-          <ul className="flex justify-end px-10">
+          <ul className="flex justify-between sm:justify-end  px-10">
             {!darkMode ? (
               <li>
                 <BsFillMoonStarsFill
@@ -44,7 +44,11 @@ function Header() {
           </ul>
         </div>
         <div className="flex flex-col items-center pb-10">
-          <div data-aos-delay="200" data-aos="fade-up" className="font-roboto">
+          <div
+            data-aos-delay="200"
+            data-aos="fade-up"
+            className="font-roboto text-[1rem] sm:text-[2rem]"
+          >
             <TypeAnimation
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -62,7 +66,6 @@ function Header() {
               preRenderFirstString={false}
               deletionSpeed={5}
               style={{
-                fontSize: "1.5rem",
                 display: "inline-block",
                 color: "white",
               }}
@@ -72,7 +75,7 @@ function Header() {
         </div>
 
         <p
-          className="text-orange-40 text-[4.5rem] text-center py-5 mt-14 font-medium text-orange-400 dark:text-teal-500 "
+          className="text-orange-40 text-[4.5rem] sm:text-[6rem] text-center py-5 mt-14 font-medium text-orange-400 dark:text-teal-500 "
           data-aos="fade-up"
           data-aos-delay="1000"
         >
@@ -82,70 +85,70 @@ function Header() {
         <p
           data-aos="fade-up"
           data-aos-delay="1200"
-          className="text-[1.5rem] font-roboto py-10 leading-8 text-center text-white"
+          className="text-[1.25rem] sm:text-[1.5rem] font-roboto py-10 leading-8 text-center text-white"
         >
           Highly motivated
-          <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
+          <p className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
             {" "}
             Junior Full Stack Web Developer
-          </span>{" "}
+          </p>{" "}
           <p className="mt-2">
-            with a proven track record in leadership and client service.
+            with a proven track record in leadership and client service
           </p>
         </p>
         <p
           data-aos="fade-up"
-          data-aos-delay="1200"
-          className="text-[1.5rem] font-roboto pb-14 leading-8 text-center text-white"
+          data-aos-delay="300"
+          className="text-[1.25rem] sm:text-[1.5rem] font-roboto pb-14 leading-8 text-center text-white"
         >
           <p>
-            Strong work ethic, passion for learning,{" "}
-            <p className="mt-2">and particular interest building </p>
+            Strong work ethic, passion for learning, and particular interest
+            building user-friendly interfaces
             <p className="mt-2">
-              {" "}
-              <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
-                user-friendly interfaces{" "}
-              </span>
               using the{" "}
-              <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
-                MERN{" "}
+              <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500  mt-2">
+                MERN stack
               </span>
-              stack.
             </p>
           </p>
         </p>
         <div
-          className=" flex justify-center flex-wrap gap-10 py-3"
+          className=" flex justify-center gap-10 py-3"
           data-aos="fade-up"
+          data-aos-delay="600"
         >
-          <a
-            href="mailto:fanti.marco8@gmail.com"
-            target="_blank"
-            className="hover:-translate-y-2 transform transition"
-          >
-            <AiFillMail className="text-white text-[3rem] sm:text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
-          </a>
-          <a
-            href="https://github.com/nanofanti"
-            target="_blank"
-            className="hover:-translate-y-2 transform transition"
-          >
-            <AiFillGithub className="text-white text-[3rem] sm:text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/marcofanti/"
-            target="_blank"
-            className="hover:-translate-y-2 transform transition"
-          >
-            <AiFillLinkedin className="text-white text-[3rem] sm:text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
-          </a>
-          <a
-            href="https://www.instagram.com/nanofanti?igsh=MTcxNnN5Y24zd2l6Mg=="
-            target="_blank"
-            className="hover:-translate-y-2 transform transition"
-          >
-            <RiInstagramFill className="text-white text-[3rem] sm:text-[4rem]   hover:text-orange-400 dark:hover:text-teal-500 " />
-          </a>
+          <div className="flex flex-col justify-center items-center gap-8 sm:flex-row">
+            <a
+              href="mailto:fanti.marco8@gmail.com"
+              target="_blank"
+              className="hover:-translate-y-2 transform transition"
+            >
+              <AiFillMail className="text-white text-[3rem] sm:text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
+            </a>
+            <a
+              href="https://github.com/nanofanti"
+              target="_blank"
+              className="hover:-translate-y-2 transform transition"
+            >
+              <AiFillGithub className="text-white text-[3rem] sm:text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
+            </a>
+          </div>
+          <div className="flex flex-col justify-center items-center gap-8 sm:flex-row">
+            <a
+              href="https://www.linkedin.com/in/marcofanti/"
+              target="_blank"
+              className="hover:-translate-y-2 transform transition"
+            >
+              <AiFillLinkedin className="text-white text-[3rem] sm:text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
+            </a>
+            <a
+              href="https://www.instagram.com/nanofanti?igsh=MTcxNnN5Y24zd2l6Mg=="
+              target="_blank"
+              className="hover:-translate-y-2 transform transition"
+            >
+              <RiInstagramFill className="text-white text-[3rem] sm:text-[4rem]   hover:text-orange-400 dark:hover:text-teal-500 " />
+            </a>
+          </div>
         </div>
       </div>
       <PhotoSection />

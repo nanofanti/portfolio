@@ -6,41 +6,41 @@ function Skills() {
       <div className="bg-fixed relative bg-parallax2 bg-cover h-[150rem]">
         <div className="mt-[10rem] mb-[2rem] pt-[8rem]">
           <h3
-            className="text-[4.5rem] font-roboto text-orange-400 text-center py-5 dark:text-teal-500 font-medium"
+            className="text-[4.5rem] sm:text-[6rem] font-roboto text-orange-400 text-center py-5 dark:text-teal-500 font-medium"
             data-aos="fade-up"
             data-aos-delay="500"
           >
             Skills
           </h3>
           <p
-            className="text-[1.5rem] font-roboto text-white text-center p-5 leading-8"
+            className="text-[1.25rem] sm:text-[1.5rem] font-roboto text-white text-center p-5 leading-8"
             data-aos="fade-up"
             data-aos-delay="800"
           >
             Recently graduated from{" "}
-            <p className="mt-2 text-[1.5rem]">
+            <p className="mt-2 text-[1.25rem] sm:text-[1.5rem]">
               <a
                 href="/WBScertificate.pdf"
                 target="blank"
                 className="link-effect"
                 data-replace="The Certificate!"
               >
-                <span className="text-orange-400 text-[1.5rem] dark:text-teal-500">
+                <span className="text-orange-400 text-[1.25rem] sm:text-[1.5rem] dark:text-teal-500">
                   WBS CODING SCHOOL
                 </span>
               </a>
-              <p className="text-[1.5rem] font-roboto text-white text-center leading-8">
+              <p className="text-[1.25rem] sm:text-[1.5rem] font-roboto text-white text-center leading-8">
                 of Berlin.
               </p>{" "}
             </p>
           </p>
 
           <p
-            className="text-[1.5rem] font-roboto text-white text-center p-5 leading-8"
+            className="text-[1.25rem] sm:text-[1.5rem] font-roboto text-white text-center p-5 leading-8"
             data-aos="fade-up"
             data-aos-delay="800"
           >
-            Quick learner with a passion for staying current{" "}
+            Quick learner with a passion for staying current with{" "}
             <p className="mt-2">
               <span className="text-orange-400 hover:font-bold dark:text-teal-500">
                 {" "}
@@ -48,7 +48,6 @@ function Skills() {
               </span>
               and best practices.
             </p>
-            with
           </p>
         </div>
         <div className="flex justify-center items-center ">

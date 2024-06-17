@@ -35,4 +35,18 @@
     /* Add this line */
     visibility: hidden;
   }
+  /* New custom link styles */
+  .custom-link {
+    @apply relative text-[#1fb8a6] no-underline; /* Basic styles */
+  }
+
+  .custom-link::before {
+    content: "";
+    @apply absolute w-full h-1 bg-[#1fb8a6] rounded bottom-3 left-0 scale-x-0 origin-right;
+    @apply transition-transform duration-300 ease-in-out; /* Animation setup */
+  }
+
+  .custom-link:hover::before {
+    @apply origin-left scale-x-100; /* Transform on hover */
+  }
 }
