@@ -84,22 +84,30 @@ function Header() {
           data-aos-delay="1200"
           className="text-[2rem] font-roboto py-10 leading-8 text-center text-white"
         >
-          Lorem ipsum dolor sit amet{" "}
-          <span className="text-orange-400 font-roboto dark:text-teal-500">
-            consectetur
+          Highly motivated
+          <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
+            {" "}
+            Junior Full Stack Web Developer
           </span>{" "}
-          adipisicing elit.{" "}
+          with a proven track record in leadership and client service.
         </p>
         <p
           data-aos="fade-up"
           data-aos-delay="1400"
           className="text-[2rem] font-roboto pb-14 leading-8 text-center text-white"
         >
-          Quia delectus nihil{" "}
-          <span className="text-orange-400 font-roboto dark:text-teal-500">
-            inventore
-          </span>{" "}
-          laborum libero qui nam consequuntur illum ipsum fugit?
+          <p>
+            Strong work ethic, passion for learning, and particular interest in
+            building{" "}
+            <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
+              user-friendly interfaces{" "}
+            </span>
+            using the{" "}
+            <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
+              MERN{" "}
+            </span>
+            stack.
+          </p>
         </p>
         <div className="text-5xl flex justify-center gap-16 py-3">
           <a

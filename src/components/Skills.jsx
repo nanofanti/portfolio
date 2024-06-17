@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="h-[100rem]">
       <div className="bg-fixed relative bg-parallax2 bg-cover h-[100rem]">
-        <div className="mt-[10rem] mb-[10rem] pt-[8rem]">
+        <div className="mt-[10rem] mb-[2rem] pt-[8rem]">
           <h3
             className="text-[5rem] font-roboto text-orange-400 text-center py-5 dark:text-teal-500 font-medium"
             data-aos="fade-up"
@@ -17,24 +17,31 @@ function Skills() {
             data-aos="fade-up"
             data-aos-delay="800"
           >
-            Since the beginning of my journey as a freelance designer and
-            developer, I have done remote work for agencies consulted for{" "}
-            <span className="text-orange-400 dark:text-teal-500">
-              startups{" "}
-            </span>
+            Recently graduated from{" "}
+            <a
+              href="/WBScertificate.pdf"
+              target="blank"
+              className="link-effect"
+              data-replace="Check out the certificate!"
+            >
+              <span className="text-orange-400 dark:text-teal-500">
+                WBS CODING SCHOOL
+              </span>
+            </a>{" "}
+            of Berlin.
           </p>
+          <p></p>
           <p
             className="text-[2rem] font-roboto text-white text-center p-5 leading-8"
             data-aos="fade-up"
             data-aos-delay="800"
           >
-            {" "}
-            and collaborated with talanted people to create{" "}
-            <span className="text-orange-400 dark:text-teal-500">
+            Quick learner with a passion for staying current with
+            <span className="text-orange-400 hover:font-bold dark:text-teal-500">
               {" "}
-              digital
-            </span>{" "}
-            products for both business and consumer use.
+              emerging technologies{" "}
+            </span>
+            and best practices.
           </p>
         </div>
         <div className="m-3 flex justify-center pb-8 gap-10">

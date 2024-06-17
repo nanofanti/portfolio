@@ -26,9 +26,11 @@ function PhotoSection() {
           data-aos="fade-up"
           data-aos-delay="600"
         >
-          Lorem ipsum dolor sit amet,{" "}
-          <span className="text-orange-400 dark:text-teal-500">inventore</span>{" "}
-          adipisicing elit. Libero, labore?
+          "What matters most is how well you walk through the{" "}
+          <span className="text-orange-400 hover:font-bold dark:text-teal-500">
+            fire."
+          </span>{" "}
+          <h2 className="text-[1.5rem] mt-1">(Charles Bukowski)</h2>
         </h2>
       </div>
       <Skills />

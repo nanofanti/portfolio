@@ -3,8 +3,8 @@ import { RiSmartphoneFill } from "react-icons/ri";
 
 function Footer() {
   return (
-    <div>
-      <div className="h-[12rem] relative flex justify-evenly items-center bg-fixed bg-parallax2 bg-cover">
+    <div className="mt-[10rem]">
+      <div className="h-[20rem] relative flex justify-evenly items-center bg-fixed bg-parallax2 bg-cover">
         <div className="flex flex-col items-center">
           <p className="text-[1.5rem] flex justify-center items-center gap-5 font-roboto leading-8 text-center text-white">
             <IoMdPin className="text-[3rem] hover:text-orange-400 dark:hover:text-teal-500 hover:-translate-y-2 transform transition" />
