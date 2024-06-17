@@ -9,7 +9,7 @@ export default {
       },
 
       screens: {
-        lg: "1017px",
+        md: "868px",
       },
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],

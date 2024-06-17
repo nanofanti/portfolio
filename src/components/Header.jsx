@@ -9,8 +9,8 @@ import PhotoSection from "./PhotoSection";
 function Header() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
   return (
-    <div className="absolute bg-white dark:bg-black">
-      <div className="h-[60rem] w-screen sm:h-[80rem] relative flex flex-col pt-[6rem] bg-fixed bg-parallax1 bg-cover">
+    <div className="absolute bg-white dark:bg-black w-screen">
+      <div className="h-[70rem] relative flex flex-col pt-[6rem] bg-fixed bg-parallax1 bg-cover">
         <div
           className="pb-16 bg-transparent z-40"
           data-aos="fade-left"

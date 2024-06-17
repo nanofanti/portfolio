@@ -53,11 +53,11 @@ function Skills() {
             data-aos-delay="1200"
             className="text-center bg-gradient-to-b from-orange-400  dark:bg-gradient-to-b dark:from-teal-500 shadow-2xl p-12 rounded-xl my-10"
           >
-            <div className="w-full flex justify-center hover:-translate-y-2 transform transition ">
+            <div className=" flex justify-center hover:-translate-y-2 transform transition">
               <img src="/design.png" width={100} height={100} alt="" />
             </div>
 
-            <h3 className="text-[3.5rem] font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
+            <h3 className="text-[3.5rem]  font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
               Front-End
             </h3>
 
@@ -76,7 +76,7 @@ function Skills() {
               <img src="/consulting.png" width={100} height={100} alt="" />
             </div>
 
-            <h3 className="text-[3.5rem] font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
+            <h3 className="text-[3.5rem]  font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
               Web Design
             </h3>
             <p className="text-[2rem] font-roboto py-1 text-white">Figma</p>

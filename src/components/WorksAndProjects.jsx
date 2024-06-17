@@ -2,7 +2,7 @@ import Footer from "./Footer";
 
 function WorksAndProjects() {
   return (
-    <div className="dark:bg-black pt-[20rem] h-[170rem]">
+    <div className="dark:bg-black pt-[20rem] h-[180rem]">
       <div className=" pb-[10rem] mb-[5rem]" data-aos="fade-up">
         <h3 className="text-[5rem] roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
           Works & ...Projects
@@ -48,11 +48,11 @@ function WorksAndProjects() {
           </p>
         </p>
       </div>
-      <div className="p">
+      <div>
         <div className="flex justify-center gap-10">
           {" "}
           <div
-            className=" flex flex-col items-center"
+            className=" flex flex-col items-center mt-[8rem] p-5"
             data-aos="flip-right"
             data-aos-delay="300"
           >
@@ -65,16 +65,16 @@ function WorksAndProjects() {
               "Tinderlike" pet adoption web app.{" "}
               <p>Find your PetFect match now!</p>
             </p>
-
-            <iframe
-              // width={850}
-              // height={500}
-              src="https://petfectmatch.netlify.app/"
-              className="rounded-lg w-[40rem] h-[31rem] bg-white object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
-            ></iframe>
+            <a href="https://petfectmatch.netlify.app/" target="blank">
+              <img
+                src="/petfectmatchscreen.png"
+                alt=""
+                className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+              />
+            </a>
           </div>
           <div
-            className="flex flex-col items-center"
+            className=" flex flex-col items-center mt-[8rem] p-5"
             data-aos="flip-left"
             data-aos-delay="300"
           >
@@ -84,17 +84,17 @@ function WorksAndProjects() {
                 Pokemon Fight
               </h2>
             </a>
-
             <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
-              Play with first generation Pokemons and{" "}
-              <p>be the number one on the leaderboard!</p>
-            </p>
-            <iframe
-              // width={850}
-              // height={500}
-              src="https://pokemonfightwbs.netlify.app/"
-              className="rounded-lg w-[40rem] h-[31rem] bg-white object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
-            ></iframe>
+              Play with first generation Pokemons!
+              <p>Ready to go?</p>
+            </p>{" "}
+            <a href="https://pokemonfightwbs.netlify.app/" target="blank">
+              <img
+                src="/pokemonfightscreen.png"
+                alt=""
+                className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+              />
+            </a>
           </div>
         </div>
         <div className="flex justify-center gap-10">
@@ -105,18 +105,20 @@ function WorksAndProjects() {
           >
             <a href="https://github.com/nanofanti/react-form" target="blank">
               <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
-                Sign Up
+                Sign Up Form
               </h2>
             </a>
             <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
               A simple React form using Formik, Yup and Toastify
             </p>
-
-            <img
-              src="/signup.png"
-              alt=""
-              className="rounded-lg w-[40rem] h-[31rem] object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
-            />
+            <a href="https://github.com/nanofanti/react-form" target="blank">
+              {" "}
+              <img
+                src="/signup.png"
+                alt=""
+                className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+              />
+            </a>
           </div>
           <div
             className="mt-[8rem] p-5 "
@@ -129,11 +131,11 @@ function WorksAndProjects() {
             <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
               If you love plants, you are gonna love this!
             </p>
-            <div className="relative group w-[40rem] h-[31rem]">
+            <div className="relative group">
               <img
                 src="/auplantlogo.png"
                 alt=""
-                className="w-[40rem] h-[31rem] rounded-lg object-cover group-hover:blur-sm duration-300 group-hover:-translate-y-2"
+                className=" rounded-lg object-cover group-hover:blur-sm duration-300 group-hover:-translate-y-2"
               />
               <div className="absolute inset-0 z-10 flex justify-center items-center text-6xl font-semibold opacity-0 group-hover:opacity-100 duration-300 rounded text-orange-400 hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:text-teal-500 dark:border-teal-500">
                 Coming soon...
