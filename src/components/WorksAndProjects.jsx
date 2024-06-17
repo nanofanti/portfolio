@@ -2,15 +2,21 @@ import Footer from "./Footer";
 
 function WorksAndProjects() {
   return (
-    <div className="dark:bg-black pt-[20rem] h-[180rem]">
+    <div className="dark:bg-black pt-[20rem] sm:h-[280rem] md:h-[280rem] lg:h-[180rem]">
       <div className=" pb-[10rem] mb-[5rem]" data-aos="fade-up">
-        <h3 className="text-[5rem] roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
-          Works & ...Projects
-        </h3>
+        <div className="flex flex-col flex-wrap">
+          <h3 className="text-[4.5rem] roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
+            Works &
+            <h3 className="text-[4.5rem] roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
+              ...Projects
+            </h3>
+          </h3>
+        </div>
+
         <p
           data-aos="fade-up"
           data-aos-delay="600"
-          className="text-[2rem] roboto text-center p-5 leading-8 dark:text-white"
+          className="text-[1.5rem] roboto text-center p-5 leading-8 dark:text-white"
         >
           Proven ability to manage projects and meet{" "}
           <span className="text-orange-400 hover:font-bold dark:text-teal-500">
@@ -22,7 +28,7 @@ function WorksAndProjects() {
         <p
           data-aos="fade-up"
           data-aos-delay="600"
-          className="text-[2rem] roboto text-center p-5 leading-8 dark:text-white"
+          className="text-[1.5rem] roboto text-center p-5 leading-8 dark:text-white"
         >
           Explore a few of my{" "}
           <span className="text-orange-400 hover:font-bold dark:text-teal-500">
@@ -49,7 +55,7 @@ function WorksAndProjects() {
         </p>
       </div>
       <div>
-        <div className="flex justify-center gap-10">
+        <div className="flex justify-center gap-10 flex-wrap">
           {" "}
           <div
             className=" flex flex-col items-center mt-[8rem] p-5"
@@ -69,7 +75,7 @@ function WorksAndProjects() {
               <img
                 src="/petfectmatchscreen.png"
                 alt=""
-                className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                className="rounded-lg w-[40rem] h-[22rem] object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
               />
             </a>
           </div>
@@ -92,54 +98,59 @@ function WorksAndProjects() {
               <img
                 src="/pokemonfightscreen.png"
                 alt=""
-                className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                className="rounded-lg w-[40rem] h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
               />
             </a>
           </div>
         </div>
-        <div className="flex justify-center gap-10">
+        <div className="flex justify-center gap-10 flex-wrap">
+          {" "}
           <div
-            className="mt-[8rem] p-5"
+            className=" flex flex-col items-center mt-[8rem] p-5"
             data-aos="flip-right"
             data-aos-delay="300"
           >
             <a href="https://github.com/nanofanti/react-form" target="blank">
               <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
-                Sign Up Form
+                Sign up Form
               </h2>
             </a>
             <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
-              A simple React form using Formik, Yup and Toastify
+              A simple React form using <p>Formik, Yup and Toastify!</p>
             </p>
             <a href="https://github.com/nanofanti/react-form" target="blank">
-              {" "}
               <img
                 src="/signup.png"
                 alt=""
-                className="rounded-lg object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                className="rounded-lg w-[40rem] h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
               />
             </a>
           </div>
           <div
-            className="mt-[8rem] p-5 "
+            className="flex flex-col items-center mt-[8rem] p-5"
             data-aos="flip-left"
             data-aos-delay="300"
           >
-            <h2 className=" text-[3.25rem] roboto text-orange-400  dark:text-teal-500 text-center mb-2">
-              ...Au Plant
-            </h2>
-            <p className="text-center text-[1.5rem] roboto mb-6 dark:text-white">
-              If you love plants, you are gonna love this!
+            <a href="https://pokemonfightwbs.netlify.app/" target="_blank">
+              <h2 className="text-[3.25rem] font-roboto text-orange-400 dark:text-teal-500 text-center mb-2">
+                ...Au Plant
+              </h2>
+            </a>
+            <p className="text-center text-[1.5rem] font-roboto mb-6 dark:text-white">
+              If you love plants, <p>you are gonna love this!</p>
             </p>
+
             <div className="relative group">
-              <img
-                src="/auplantlogo.png"
-                alt=""
-                className=" rounded-lg object-cover group-hover:blur-sm duration-300 group-hover:-translate-y-2"
-              />
-              <div className="absolute inset-0 z-10 flex justify-center items-center text-6xl font-semibold opacity-0 group-hover:opacity-100 duration-300 rounded text-orange-400 hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:text-teal-500 dark:border-teal-500">
+              <div className="absolute inset-0 z-10 flex justify-center items-center text-6xl font-semibold rounded text-orange-400 dark:text-teal-500 backdrop-blur-sm bg-white/30 opacity-0 group-hover:opacity-100 duration-300">
                 Coming soon...
               </div>
+              <a href="https://pokemonfightwbs.netlify.app/" target="_blank">
+                <img
+                  src="/auplantlogo.png"
+                  alt=""
+                  className="rounded-lg w-[40rem] h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:hover:border-teal-500 transform transition-all z-20 group-hover:z-10"
+                />
+              </a>
             </div>
           </div>
         </div>

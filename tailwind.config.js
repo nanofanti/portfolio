@@ -7,10 +7,10 @@ export default {
       colors: {
         redTitle: "#B81F31",
       },
-
       screens: {
-        md: "868px",
+        lg: "1400px",
       },
+
       fontFamily: {
         roboto: ["Roboto", "sans-serif"],
       },
