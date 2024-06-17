@@ -18,14 +18,14 @@ function Skills() {
             data-aos-delay="800"
           >
             Recently graduated from{" "}
-            <p className="mt-2">
+            <p className="mt-2 text-[1.5rem]">
               <a
                 href="/WBScertificate.pdf"
                 target="blank"
-                className="link-effect text-[1rem]"
-                data-replace="Check out the certificate!"
+                className="link-effect"
+                data-replace="The Certificate!"
               >
-                <span className="text-orange-400 dark:text-teal-500">
+                <span className="text-orange-400 text-[1.5rem] dark:text-teal-500">
                   WBS CODING SCHOOL
                 </span>
               </a>
