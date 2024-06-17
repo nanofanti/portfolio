@@ -36,12 +36,15 @@ function Skills() {
             data-aos="fade-up"
             data-aos-delay="800"
           >
-            Quick learner with a passion for staying current with
-            <span className="text-orange-400 hover:font-bold dark:text-teal-500">
-              {" "}
-              emerging technologies{" "}
-            </span>
-            and best practices.
+            Quick learner with a passion for staying current{" "}
+            <p className="mt-2">
+              <span className="text-orange-400 hover:font-bold dark:text-teal-500">
+                {" "}
+                emerging technologies{" "}
+              </span>
+              and best practices.
+            </p>
+            with
           </p>
         </div>
         <div className="m-3 flex justify-center pb-8 gap-10">

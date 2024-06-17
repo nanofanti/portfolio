@@ -3,7 +3,7 @@ import Footer from "./Footer";
 function WorksAndProjects() {
   return (
     <div className="dark:bg-black pt-[20rem] h-[170rem]">
-      <div className=" pb-[10rem]" data-aos="fade-up">
+      <div className=" pb-[10rem] mb-[5rem]" data-aos="fade-up">
         <h3 className="text-[5rem] roboto text-center py-5 text-orange-400 dark:text-teal-500 font-medium">
           Works & ...Projects
         </h3>

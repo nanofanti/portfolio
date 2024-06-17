@@ -10,7 +10,7 @@ function Header() {
   const { darkMode, setDarkMode } = useContext(ThemeContext);
   return (
     <div className="absolute bg-white dark:bg-black">
-      <div className="h-[80rem] sm:h-[80rem] relative flex flex-col item-center justify-center bg-fixed bg-parallax1 bg-cover">
+      <div className="h-[60rem] w-screen sm:h-[80rem] relative flex flex-col pt-[6rem] bg-fixed bg-parallax1 bg-cover">
         <div
           className="pb-16 bg-transparent z-40"
           data-aos="fade-left"
@@ -89,70 +89,62 @@ function Header() {
             {" "}
             Junior Full Stack Web Developer
           </span>{" "}
-          with a proven track record in leadership and client service.
+          <p className="mt-2">
+            with a proven track record in leadership and client service.
+          </p>
         </p>
         <p
           data-aos="fade-up"
-          data-aos-delay="1400"
+          data-aos-delay="1200"
           className="text-[2rem] font-roboto pb-14 leading-8 text-center text-white"
         >
           <p>
-            Strong work ethic, passion for learning, and particular interest in
-            building{" "}
-            <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
-              user-friendly interfaces{" "}
-            </span>
-            using the{" "}
-            <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
-              MERN{" "}
-            </span>
-            stack.
+            Strong work ethic, passion for learning,{" "}
+            <p className="mt-2">and particular interest building </p>
+            <p className="mt-2">
+              {" "}
+              <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
+                user-friendly interfaces{" "}
+              </span>
+              using the{" "}
+              <span className="text-orange-400 font-roboto hover:font-bold dark:text-teal-500">
+                MERN{" "}
+              </span>
+              stack.
+            </p>
           </p>
         </p>
-        <div className="text-5xl flex justify-center gap-16 py-3">
+        <div
+          className="text-5xl flex justify-center gap-16 py-3 mt-[4rem]"
+          data-aos="fade-up"
+        >
           <a
             href="mailto:fanti.marco8@gmail.com"
             target="_blank"
             className="hover:-translate-y-2 transform transition"
           >
-            <AiFillMail
-              className="text-white text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 "
-              data-aos="fade-right"
-              data-aos-delay="1800"
-            />
+            <AiFillMail className="text-white text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
           </a>
           <a
             href="https://github.com/nanofanti"
             target="_blank"
             className="hover:-translate-y-2 transform transition"
           >
-            <AiFillGithub
-              className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 "
-              data-aos="fade-up"
-              data-aos-delay="1800"
-            />
+            <AiFillGithub className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 " />
           </a>
           <a
             href="https://www.linkedin.com/in/marcofanti/"
             target="_blank"
             className="hover:-translate-y-2 transform transition"
           >
-            <AiFillLinkedin
-              className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 "
-              data-aos="fade-up"
-              data-aos-delay="1800"
-            />
+            <AiFillLinkedin className="text-white text-[4rem] hover:text-orange-400 dark:hover:text-teal-500 " />
           </a>
           <a
             href="https://www.instagram.com/nanofanti?igsh=MTcxNnN5Y24zd2l6Mg=="
             target="_blank"
             className="hover:-translate-y-2 transform transition"
           >
-            <RiInstagramFill
-              className="text-white text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 "
-              data-aos="fade-left"
-              data-aos-delay="1800"
-            />
+            <RiInstagramFill className="text-white text-[4rem]  hover:text-orange-400 dark:hover:text-teal-500 " />
           </a>
         </div>
       </div>
