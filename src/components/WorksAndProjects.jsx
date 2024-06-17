@@ -75,7 +75,7 @@ function WorksAndProjects() {
               <img
                 src="/petfectmatchscreen.png"
                 alt=""
-                className="rounded-lg w-[40rem] h-[22rem] object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                className="rounded-lg sm:w-[40rem] sm:h-[22rem] object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
               />
             </a>
           </div>
@@ -98,7 +98,7 @@ function WorksAndProjects() {
               <img
                 src="/pokemonfightscreen.png"
                 alt=""
-                className="rounded-lg w-[40rem] h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                className="rounded-lg sm:w-[40rem] sm:h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
               />
             </a>
           </div>
@@ -122,7 +122,7 @@ function WorksAndProjects() {
               <img
                 src="/signup.png"
                 alt=""
-                className="rounded-lg w-[40rem] h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
+                className="rounded-lg sm:w-[40rem] sm:h-[22rem]   object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:border-teal-500 transform transition-all"
               />
             </a>
           </div>
@@ -148,7 +148,7 @@ function WorksAndProjects() {
                 <img
                   src="/auplantlogo.png"
                   alt=""
-                  className="rounded-lg w-[40rem] h-[22rem]  object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:hover:border-teal-500 transform transition-all z-20 group-hover:z-10"
+                  className="rounded-lg sm:w-[40rem] sm:h-[22rem]   object-cover hover:-translate-y-2 hover:border-4 hover:border-orange-400 dark:hover:border-teal-500 transform transition-all z-20 group-hover:z-10"
                 />
               </a>
             </div>

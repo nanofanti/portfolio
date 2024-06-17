@@ -52,7 +52,7 @@ function Skills() {
           </p>
         </div>
         <div className="flex justify-center items-center ">
-          <div className="m-3 w-screen flex justify-center flex-wrap pb-8 gap-10 ">
+          <div className="m-3 w-screen flex justify-center flex-wrap pb-8 gap-8 ">
             <div
               data-aos="flip-left"
               data-aos-delay="1200"
