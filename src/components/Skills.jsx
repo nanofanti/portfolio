@@ -64,7 +64,9 @@ function Skills() {
               <h3 className="text-[2.5rem]  font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
                 Front-End
               </h3>
-
+              <p className="text-[1.5rem] py-1 font-roboto text-white">
+                HTML & CSS
+              </p>
               <p className="text-[1.5rem] py-1 font-roboto text-white">JS</p>
               <p className="text-[1.5rem] py-1 font-roboto text-white">React</p>
               <p className="text-[1.5rem] py-1 font-roboto text-white">

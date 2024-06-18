@@ -49,7 +49,7 @@ function Header() {
                 // Same substring at the start will only be typed out once, initially
                 "<> </>",
                 2000, // wait 1s before replacing "Mice" with "Hamsters"
-                "Full-Stack Web Developer",
+                "Full Stack Web Developer",
                 2000,
                 "Experience in UI/UX Design",
                 2000,
