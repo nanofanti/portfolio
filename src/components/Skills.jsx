@@ -61,7 +61,7 @@ function Skills() {
                 <img src="/design.png" width={80} height={80} alt="" />
               </div>
 
-              <h3 className="text-[2.5rem]  font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
+              <h3 className="text-[2.25rem]  font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
                 Front-End
               </h3>
               <p className="text-[1.5rem] py-1 font-roboto text-white">
@@ -76,15 +76,16 @@ function Skills() {
             <div
               data-aos="flip-down"
               data-aos-delay="1000"
-              className="text-center w-[15rem] h-[28rem] bg-gradient-to-b from-orange-400  dark:bg-gradient-to-b dark:from-teal-500 shadow-2xl p-8 rounded-xl my-10"
+              className="text-center w-[16rem] h-[28rem] bg-gradient-to-b from-orange-400  dark:bg-gradient-to-b dark:from-teal-500 shadow-2xl p-8 rounded-xl my-10"
             >
               <div className="w-full flex justify-center hover:-translate-y-2 transform transition ">
                 <img src="/consulting.png" width={80} height={80} alt="" />
               </div>
 
-              <h3 className="text-[2.5rem]  font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
+              <h3 className="text-[2.25rem]  font-roboto font-medium pt-8 pb-2 mb-6 text-orange-400 dark:text-teal-500">
                 Web Design
               </h3>
+
               <p className="text-[1.5rem] font-roboto py-1 text-white">Figma</p>
               <p className="text-[1.5rem] font-roboto py-1 text-white">
                 WebFlow
@@ -102,7 +103,7 @@ function Skills() {
                 <img src="/code.png" width={80} height={80} alt="" />
               </div>
 
-              <h3 className="text-[2.5rem] font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
+              <h3 className="text-[2.25rem] font-roboto font-medium pt-8 pb-2 mb-4 text-orange-400 dark:text-teal-500">
                 Back-End
               </h3>
 
